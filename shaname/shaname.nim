@@ -8,7 +8,8 @@ Hash: SHA512
 # See the file "copying.txt" included in this
 # directory for details about the copyright.
 
-import parseopt, strutils, algorithm, sha1, os
+import parseopt, strutils, algorithm, os
+import std/sha1
 
 const
   Version = "0.1.0"
@@ -60,18 +61,18 @@ else:
 #[
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEQQU+fteL+xbxiVcx5jn1x5OxYLQFAlr5yzUACgkQ5jn1x5Ox
-YLQcAA/+IfJVU5nVg5KthHCzydMD9cgEdo/KW8BNiDEUkHClPfEapyLduRrQRnr5
-VWrP4zv2Y6vgHj0xdKtvwMu2K5YFwVwCC2YWWWqKmK/4isVacgHO5ld1dc0NtrgF
-22aCqiF6tGyrIeQpc/dLemt8+0XXSGisQkQcFu15g2GARfF1CG0TaQFHpxEhywTH
-DWGNmLyUZqnaeao84ZDnycJ72Ij0rvSOeHOm4yIPraMrUPN8SCTEWrSSHe4JyJNi
-ShASwOqc37rFilqKzdETrUPfZAJ6F7k0IMV1/8lJlYhzXCBFVHui0WU5iGMC/Wu8
-7XgFmObcu+T0ALuGsDzcv61q3U1EBoXqwIA8H7ICKy59GqzxFGEXsY+p7LFamoRM
-VadV7iGmw9IhP9D+Ts4iSdCpBExAuQJmC3AgoQZmax2KWOjFKaAlBK0+6AlHnCEC
-UqChTDv2nlwxgSr3qeJULoV+OjkP11pFKjf+Dupou25pt5V3hwJVPPaqYiAS9inq
-KJ3BlUkFDbMwxS53ew8l9oyNmK20XnWUPu0+8CD2NAfMF/S9rbEbESpMWu6Arf3u
-4sQIU/VzQ8LwBvuGovAqJTl5gw7PNBHvtS+JfHiZH8D/L/n02LKpkd0dZkOuBA24
-ZiImSxfH2xgo2Ur3Nd/v5qvQuBQxf4WwTEXiN2GFgOywelzB7ww=
-=EF/Z
+iQIzBAEBCgAdFiEEQQU+fteL+xbxiVcx5jn1x5OxYLQFAlr7+f4ACgkQ5jn1x5Ox
+YLR0Yg//bUQlnwTRab3dH/wPoyWp5UwJhY//ngltqSyC01dLjwH5j+x5uAn1jCa5
+XPy8yf9vaykIn/tkju9YeCqDdCSiCqLnDN+cpRvOVUftepYZ/tocwulL6B0s9Fuo
+yv5YKtvsqDtyGbh4HpJbGJXXGTLMeHHA9MtAcVKdLlCZm8l7d1KBhM4CAs2Pza9v
+oWt/k5L8Dv2fh/fBkxArBSRqJlC7VWADp39JrXTSIVr9q/75Po+s3V8LkxbGpnpy
+xyji9SvBsBtCq5Kbc+JP3rq2/PqlzugcrGhrRiow3OWWQyu1vb6mN32asKa7iM85
+EdvLmH4Jg4o8w/E5h/7ilAaGDcCFyo/D6PO/xNPmiKHOB4B3uznunyacfl8r6bts
+h+73rDTeTbJyOGyOEc6KNDgamuO3A23QCJTdtZJGw6DICZPNHCTl4tP96luEv1zm
+e7lONdVXbotgCA49CpgOR8RJxIO7u62VdPXyjJYilKK5pRbY6kPXGnknGRqHcoSx
+E6cbDK/30soUtRzwNoF9UQHsDhWF8+CDZJuMLKnMHCsSFCJ28sMcMnrPmeVn8KEA
+rWIzWKLVk4Fw1jVXlac5myZchhjpmblMytaZnm95z2mARuk2bJrRsFmr+IEEPBJT
+8q1dKOE3HksjP4sH6MAWfxQXApjispaOaxUOc9vNG0d9Qo0f00Y=
+=+UiO
 -----END PGP SIGNATURE-----
 ]#
